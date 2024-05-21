@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+.decks-container{
+  display: flex;
+  justify-content: space-between;
+}
+.deck{
+  flex:1;
+}
+.game-log ul{
+  max-height: 400px;
+  overflow: auto;
+}
+.game-over{
+  color:red;
+
+}
+.winner-class{
+  border:2px solid green;
+}
